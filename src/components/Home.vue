@@ -3,8 +3,8 @@
     <h2>{{title}}</h2>
     <p><i>This generates a new wallet address & mnemonic seed </i></p>
     <div class="btn-group btn-group-lg" role="group">
-      <button type="button" v-on:click="createWallet" class="btn btn-success">Create Wallet</button>
     </div>
+    <button type="button" v-on:click="createWallet" class="btn btn-success" style="margin-top: 30px; background-color:#0c091d; border-color:#0F232B; padding:14px 18px; font-size:19px; box-shadow:0 4px 6px 0 hsla(0, 0%, 0%, 0.5)">Create Wallet</button>
     <br><br>
     <div id="panel1" class="console panel panel-default" :class="displayClass">
       <div class="panel-heading">
@@ -14,7 +14,7 @@
         {{ public_addr }}
       </div>
     </div>
-    <div id="panel2" class="console panel panel-default" :class="displayClass">
+    <div id="panel2" class="console panel panel-default" :class="displayClass" style="max-width:740px;">
       <div class="panel-heading">
         <h3 class="panel-title"> Mnemonic seed </h3>
       </div>
@@ -24,7 +24,7 @@
     </div>
     <hr>
     <i>
-      Source code @  <a target="_blank" href="https://github.com/bradoyler/xmr-paper">Github.com/bradoyler/XMR-Paper</a>
+      Source code:  <a target="_blank" href="https://github.com/donjor/haven-paper-wallet">github.com/donjor/haven-paper-wallet</a>
     </i>
   </div>
 </template>
@@ -35,7 +35,7 @@ const walletUtils = require('mymonero-core-js/monero_utils/monero_wallet_utils')
 export default {
   data () {
     return {
-      title: 'Monero Paper',
+      title: 'Haven Paper Wallet',
       displayClass: 'is-hidden',
       mnemonicString: '',
       public_addr: ''
@@ -63,7 +63,7 @@ export default {
   .console {
     overflow-wrap: break-word;
     margin: auto;
-    max-width: 720px
+    max-width: 740px
   }
 
   .is-hidden {
