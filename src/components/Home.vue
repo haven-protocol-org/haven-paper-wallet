@@ -14,7 +14,7 @@
         {{ public_addr }}
       </div>
     </div>
-    <div id="panel2" class="console panel panel-default" :class="displayClass" style="max-width:740px;">
+    <div id="panel2" class="console panel panel-default" :class="displayClass">
       <div class="panel-heading">
         <h3 class="panel-title"> Mnemonic seed </h3>
       </div>
@@ -63,7 +63,7 @@ export default {
   .console {
     overflow-wrap: break-word;
     margin: auto;
-    max-width: 740px
+    max-width: 750px
   }
 
   .is-hidden {
