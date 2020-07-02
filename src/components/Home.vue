@@ -24,7 +24,7 @@
     </div>
     <hr>
     <i>
-      Source code:  <a target="_blank" href="https://github.com/donjor/haven-paper-wallet">github.com/donjor/haven-paper-wallet</a>
+      Source code:  <a target="_blank" href="https://github.com/haven-protocol-org/haven-paper-wallet">github.com/haven-protocol-org/haven-paper-wallet</a>
     </i>
   </div>
 </template>

@@ -50,9 +50,10 @@ module.exports = {
     extensions: ['*', '.js', '.vue', '.json']
   },
   devServer: {
-    historyApiFallback: true,
-    noInfo: true,
-    overlay: true
+      historyApiFallback: true,
+      noInfo: true,
+      overlay: true,
+      public: 'paper-wallet.havenprotocol.org'
   },
   performance: {
     hints: false
