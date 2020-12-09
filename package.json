@@ -24,22 +24,22 @@
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
+    "babel-loader": "^7.1.5",
     "babel-preset-env": "^1.6.0",
     "babel-preset-stage-3": "^6.24.1",
-    "cross-env": "^5.0.5",
+    "cross-env": "^5.2.1",
     "css-loader": "^0.28.7",
     "eslint": "^4.15.0",
     "eslint-config-standard": "^11.0.0-beta.0",
-    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
     "file-loader": "^1.1.4",
     "mymonero-core-js": "git+https://github.com/donjor/mymonero-core-js.git",
-    "vue-loader": "^13.0.5",
-    "vue-template-compiler": "^2.4.4",
+    "vue-loader": "^13.7.3",
+    "vue-template-compiler": "^2.6.12",
     "webpack": "^3.6.0",
-    "webpack-dev-server": "^2.11.5"
+    "webpack-dev-server": "^3.11.0"
   }
 }
